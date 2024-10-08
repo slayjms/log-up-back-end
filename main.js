@@ -14,26 +14,31 @@ const password3 = "supToThis"
 // **YOUR** code below. Pass those tests!
 
 function isValidEmail(email){
- // logic
- if(email ("krose@perseverenow.org") && (".prsvr@gmail.com"){
-  return true
- }
+ // if it ends .prsvr@gmail.com, @perseverenow.org
+ //if character exists before
+ if(email.endsWith("@perseverenow.org") || email.endsWith(".prsvr@gmail.com")){
+  if(email.startsWith('.') || email.startsWith('@')){
+    return false
+  }else{
+    return true
+  }
+ }else return false 
 }
 
 function isValidPassword(password){
-  //logic
+  // .length > 8
   if(password === 8){
     return true
   }
 }
 
 function isRegisteredUser(user){
-  //logic
+  // check string if equal to user1, 2, 3
 
 }
 
 function passwordMatches(user, password){
-  //if matches
+  //if user is user1, check password matches password 1
 
 }
 
