@@ -15,21 +15,26 @@ const password3 = "supToThis"
 
 function isValidEmail(email){
  // logic
- if(user1 === "krose@perseverenow.org"){
+ if(email ("krose@perseverenow.org") && (".prsvr@gmail.com"){
   return true
  }
 }
 
 function isValidPassword(password){
   //logic
+  if(password === 8){
+    return true
+  }
 }
 
 function isRegisteredUser(user){
   //logic
+
 }
 
 function passwordMatches(user, password){
   //if matches
+
 }
 
 
