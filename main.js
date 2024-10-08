@@ -15,7 +15,9 @@ const password3 = "supToThis"
 
 function isValidEmail(email){
  // logic
- if(user1 = "krose@perseverenow.org")
+ if(user1 === "krose@perseverenow.org"){
+  return true
+ }
 }
 
 function isValidPassword(password){
