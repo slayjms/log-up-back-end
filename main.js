@@ -27,19 +27,33 @@ function isValidEmail(email){
 
 function isValidPassword(password){
   // .length > 8
-  if(password === 8){
+  if(password.length >= 8 && password.toLowerCase() !== password && password.toUpperCase() !== password){
     return true
+  }else{
+    return  false
   }
 }
 
 function isRegisteredUser(user){
   // check string if equal to user1, 2, 3
-
+  if(user === user1 || user === user2 || user === user3 ){
+    return true
+  }else{
+    return false
+  }
 }
 
 function passwordMatches(user, password){
   //if user is user1, check password matches password 1
-
+  if(password === password1 && user === user1){
+    return true
+  }else if(password === password2 && user === user2){
+    return true
+  }else if(password === password3 && user === user3){
+      return true
+  }else {
+      return false
+  }
 }
 
 
